@@ -56,7 +56,7 @@ public class Main {
         int days = calculationTimeDelivery(deliveryDistance);
 
         if (days == -1) {
-            System.out.println("Ошибка: Введите корректное значение расстояния или доставка невозможна.");
+            System.out.println("Ошибка: Введите корректное значение расстояния или доставка невозможна по вашему адресу.");
         } else {
             System.out.println("Доставка вашей карты займет " + days + " дня.");
         }
